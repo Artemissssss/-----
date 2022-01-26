@@ -1,3 +1,11 @@
+document.getElementById("btn").addEventListener("click",()=>{
+	let first = `Первое худи:${document.getElementById("field1").value}`
+	let second = `Второе худи:${document.getElementById("field2").value}`
+	let name = `Имя:${document.getElementById("name").value}`
+	let tel = `Телефон:${document.getElementById("tel").value}`
+	document.getElementById("btn").href = `mailto:modernbiz321@gmail.com.com?subject=Заказ худи;body=${first}/n${second}/n${name}/n${tel}`
+	document.getElementById("btn").click()
+})
 let i = 0;
 setInterval(() => {
 	if(i<4){

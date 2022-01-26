@@ -506,9 +506,9 @@
 
 
 
-            <form id="order_form" action="mail.php" enctype="multipart/form-data">
+            
 
-                <select class="field" name="product_name_1" required="">
+                <select class="field" id="field1" name="product_name_1" required="">
                     <option selected="" value="не указано">Выберите худи 1</option>
 
 
@@ -523,7 +523,7 @@
                 </select>
 
 
-                <select class="field" name="product_name_2" required="">
+                <select class="field" id="field2" name="product_name_2" required="">
                     <option selected="" value="не указано">Выберите худи 2</option>
 
                     <option value="не нужно">Не нужно</option>
@@ -539,16 +539,15 @@
 
 
 
-                <input class="field" type="text" name="name" placeholder="Введите Ваше имя" required="">
-                <input class="field" type="tel" name="phone" placeholder="Введите Ваш телефон" required="">
-                <button class="button">Оформить заказ</button>
+                <input class="field" id="name" type="text" name="name" placeholder="Введите Ваше имя" required="">
+                <input class="field" type="tel" id="tel" name="phone" placeholder="Введите Ваш телефон" required="">
+                <a href="#" class="button" id="btn" target="_blank">Оформить заказ</a>
                 <input type="hidden" name="utm" value="">
-                <input type="hidden" name="site" value="artemka7.av@gmail.com">
                 <input type="hidden" name="site" value="modernbiz321@gmail.com"> 
                 <input type="hidden" name="price" value="599">
 
 
-            </form>
+            
             <div class="products_count">Осталось <b>18</b> худи по акции</div>
         </section>
 
